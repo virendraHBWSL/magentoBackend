@@ -9,3 +9,4 @@ ComponentRegistrar::register(
     'Macademy_JumpStart',
     __DIR__,
 );
+//this is registration.php
