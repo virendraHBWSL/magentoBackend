@@ -13,3 +13,4 @@ class Index implements HttpGetActionInterface
         die('jumpstart!');
     }
 }
+//this is index.php
