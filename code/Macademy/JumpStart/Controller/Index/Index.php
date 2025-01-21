@@ -13,7 +13,7 @@ class Index implements HttpGetActionInterface
         private PageFactory $pageFactory,
     ) {}
 
-    public function execute(): Page
+    public function execute()
 {
     return $this->pageFactory->create();
 }

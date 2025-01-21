@@ -8,7 +8,7 @@ use Magento\Framework\View\Element\Block\ArgumentInterface;
 
 class WelcomeMessage implements ArgumentInterface
 {
-		public function getWelcomeMessage(): Phrase
+		public function getWelcomeMessage()
     {
         $hour = date('G');
 
