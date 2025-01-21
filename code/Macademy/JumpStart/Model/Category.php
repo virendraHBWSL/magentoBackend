@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Macademy\JumpStart\Model;
 
-use Macademy\Jumpstart\Api\CategoryInterface;
+use Macademy\JumpStart\Api\CategoryInterface;
 
 class Category implements CategoryInterface
 {
@@ -12,6 +12,6 @@ class Category implements CategoryInterface
 
     public function getName()
     {
-        return $this->category->getName();
+        return $this->name->getName();
     }
 }

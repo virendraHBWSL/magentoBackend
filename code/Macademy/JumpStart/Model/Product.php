@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Macademy\Jumpstart\Model;
 
-use Macademy\Jumpstart\Api\CategoryInterface;
+use Macademy\JumpStart\Api\CategoryInterface;
 
 class Product
 {
